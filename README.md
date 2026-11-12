@@ -50,7 +50,7 @@ FINALEX/
 ├── artifacts/            # Kết quả huấn luyện (models, plots, metrics)
 │   └── cache/           # Cache features theo mốc D
 ├── notebook_moi.ipynb   # Notebook chính
-├── app.py              # Streamlit app (nếu có)
+├── app_2.py              # Streamlit app (nếu có)
 ├── custom_transformers.py
 └── requirements.txt
 ```
@@ -59,6 +59,7 @@ FINALEX/
 
 ```bash
 jupyter notebook notebook_moi.ipynb
+và chạy file app_2.py bằng terminal để xem kết quả
 ```
 
 hoặc mở trực tiếp trong VS Code.
