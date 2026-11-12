@@ -1,0 +1,27 @@
+# Dataset folder (dung lượng lớn)
+dataset/
+
+# Python virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (lớn, có thể tái tạo)
+*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache files
+artifacts/cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log

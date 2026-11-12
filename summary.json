@@ -1,0 +1,162 @@
+{
+  "best_model": "Máy vector hỗ trợ (SVM)",
+  "best_deadline_D": 30,
+  "best_f1": 0.4305988231221876,
+  "best_roc_auc": 0.7162397080304779,
+  "best_model_per_D": {
+    "30": {
+      "mo_hinh": "Máy vector hỗ trợ (SVM)",
+      "accuracy": 0.7012892682041039,
+      "precision": 0.3319103521878335,
+      "recall": 0.6128078817733991,
+      "f1": 0.4305988231221876,
+      "roc_auc": 0.7162397080304779
+    },
+    "60": {
+      "mo_hinh": "Máy vector hỗ trợ (SVM)",
+      "accuracy": 0.6970438712106948,
+      "precision": 0.2574605032182563,
+      "recall": 0.5641025641025641,
+      "f1": 0.353555644837284,
+      "roc_auc": 0.7066449643198704
+    },
+    "90": {
+      "mo_hinh": "Máy vector hỗ trợ (SVM)",
+      "accuracy": 0.6997261345852895,
+      "precision": 0.24646226415094338,
+      "recall": 0.6192592592592593,
+      "f1": 0.3525938422606495,
+      "roc_auc": 0.7351219960099834
+    }
+  },
+  "metrics_by_best_model_per_D": {
+    "30": [
+      {
+        "accuracy": 0.7012892682041039,
+        "precision": 0.3319103521878335,
+        "recall": 0.6128078817733991,
+        "f1": 0.4305988231221876,
+        "roc_auc": 0.7162397080304779
+      }
+    ],
+    "60": [
+      {
+        "accuracy": 0.6970438712106948,
+        "precision": 0.2574605032182563,
+        "recall": 0.5641025641025641,
+        "f1": 0.353555644837284,
+        "roc_auc": 0.7066449643198704
+      }
+    ],
+    "90": [
+      {
+        "accuracy": 0.6997261345852895,
+        "precision": 0.24646226415094338,
+        "recall": 0.6192592592592593,
+        "f1": 0.3525938422606495,
+        "roc_auc": 0.7351219960099834
+      }
+    ]
+  },
+  "top10_features": {
+    "relative_score_z": 0.06797795957762598,
+    "submission_rate": 0.06347655821447581,
+    "score_mean": 0.05246628485729545,
+    "score_min": 0.04620336498436412,
+    "weighted_score_mean": 0.04093048834356365,
+    "score_max": 0.040466715577053856,
+    "clicks_last_7d": 0.030631765422417603,
+    "click_velocity": 0.029113652526260077,
+    "relative_active_days": 0.027528949819975015,
+    "relative_clicks": 0.026704632084795153
+  },
+  "advanced_features_importance": {
+    "n_activity_types": 0.005528447334423172,
+    "std_daily_clicks": 0.014346282006693847,
+    "regularity_ratio": 0.014782802563133711,
+    "clicks_first_half": 0.014825454115688983,
+    "clicks_second_half": 0.020466274806646676,
+    "click_velocity": 0.029113652526260077,
+    "clicks_last_7d": 0.030631765422417603,
+    "relative_clicks": 0.026704632084795153,
+    "relative_active_days": 0.027528949819975015,
+    "click_resource": 0.013241951613656225,
+    "click_subpage": 0.015146946098950455,
+    "click_oucontent": 0.018402036123968804,
+    "click_url": 0.011525396305666315,
+    "click_forumng": 0.013709233565386997,
+    "click_quiz": 0.012381918716957272,
+    "click_page": 0.0025733565961957978,
+    "click_oucollaborate": 0.0035390654153789,
+    "click_questionnaire": 0.0018649548906453795,
+    "click_ouwiki": 0.007525220204051422,
+    "click_dataplus": 0.0,
+    "click_externalquiz": 0.003152566748241321,
+    "click_homepage": 0.01734452522420868,
+    "click_glossary": 0.0021326068492680413,
+    "click_ouelluminate": 0.0010520188316503034,
+    "click_dualpane": 0.002297210142621759,
+    "other_activity_clicks": 0.0004403213608918768,
+    "imd_x_logclicks": 0.015842401684616054,
+    "disability_x_active": 0.004073730694776706,
+    "credits_x_clicks": 0.01878717374142465,
+    "score_trend_slope": 0.01671723278225534,
+    "weighted_score_mean": 0.04093048834356365,
+    "relative_score_z": 0.06797795957762598,
+    "late_registration": 0.0
+  },
+  "benchmarks": [
+    {
+      "nguon": "MDPI Data 2026 — Explainable Early Warnings for Dropout (days 28/56/84, student-grouped)",
+      "url": "https://www.mdpi.com/2306-5729/11/11/281",
+      "chi_so": "LogReg ROC-AUC = 0.687/0.692/0.710; Random Forest ~0.710 tại day-84"
+    },
+    {
+      "nguon": "Frontiers in Education 2024 — Analyzing click data with AI",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1421479/full",
+      "chi_so": "Random Forest accuracy = 78.68% (xác định sinh viên có nguy cơ thôi học)"
+    },
+    {
+      "nguon": "Emerald AAOUJ 2026 — Predicting student success in open and distance learning",
+      "url": "https://www.emerald.com/aaouj/article-split/doi/10.1108/AAOUJ-05-2026-0090/1401235/Predicting-student-success-in-open-and-distance",
+      "chi_so": "Linear SVM macro-F1 = 0.406, Random Forest = 0.404; đặc trưng hành vi nâng macro-F1 +0.014"
+    },
+    {
+      "nguon": "PeerJ Computer Science 2024 — Predicting student success in MOOCs (OULAD)",
+      "url": "https://peerj.com/articles/cs-2221/",
+      "chi_so": "Phân lớp 2 nhãn: LogReg accuracy=92.4%, RF=95.7% (cuối khóa, định nghĩa bài toán khác dễ hơn)"
+    },
+    {
+      "nguon": "arXiv 2512.12493 — AI-Driven Early Warning Systems (Static Feature Dominance)",
+      "url": "https://arxiv.org/html/2512.12493",
+      "chi_so": "Đặc trưng demographic tĩnh chiếm 68% importance; sum_click chỉ 1.34%"
+    },
+    {
+      "nguon": "Kuzilek, Hlosta, Zdrahal 2017 — OULAD original dataset paper",
+      "url": "https://www.nature.com/articles/sdata2017171",
+      "chi_so": "Bộ dữ liệu chuẩn: 32,593 đăng ký, 22 module-presentation, ~10.6M tương tác VLE"
+    }
+  ],
+  "class_counts_per_D": {
+    "30": {
+      "0": 22410,
+      "1": 5033
+    },
+    "60": {
+      "0": 22416,
+      "1": 3930
+    },
+    "90": {
+      "0": 22420,
+      "1": 3131
+    }
+  },
+  "dataset_size_per_D": {
+    "30": 27443,
+    "60": 26346,
+    "90": 25551
+  },
+  "n_clusters_kmeans": 2,
+  "pca_n_components_95pct": 36,
+  "notes": "studentVle lọc còn cửa sổ [0,90] (~4.8M dòng); tách train/test theo id_student; class_weight='balanced'; SMOTE đối chiếu trên Hồi quy logistic; đặc trưng nâng cao: engagement theo activity_type, recency, regularity, diversity, velocity, score trend, cohort-relative normalization, feature interaction, KMeans cluster label. Không dùng deep learning."
+}

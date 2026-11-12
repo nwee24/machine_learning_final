@@ -1,0 +1,137 @@
+{
+  "best_model": "Random Forest",
+  "best_deadline_D": 30,
+  "accuracy": 0.721990194298166,
+  "precision": 0.3411330049261084,
+  "recall": 0.5458128078817734,
+  "best_f1": 0.41985600606290263,
+  "cv_f1": 0.4031386411372564,
+  "f1_nen_doan_tat_ca_thoi_hoc": 0.3112542164980067,
+  "metrics_rf_per_D": {
+    "30": {
+      "accuracy": 0.721990194298166,
+      "precision": 0.3411330049261084,
+      "recall": 0.5458128078817734,
+      "f1": 0.41985600606290263,
+      "cv_f1": 0.4031386411372564
+    },
+    "60": {
+      "accuracy": 0.7111655055545095,
+      "precision": 0.26078680203045684,
+      "recall": 0.5269230769230769,
+      "f1": 0.34889643463497455,
+      "cv_f1": 0.37622509083183237
+    },
+    "90": {
+      "accuracy": 0.7511737089201878,
+      "precision": 0.27056110684089163,
+      "recall": 0.5214814814814814,
+      "f1": 0.3562753036437247,
+      "cv_f1": 0.3447371538201493
+    }
+  },
+  "risk_bands": {
+    "nguong_trung_binh": 0.4975777699074332,
+    "nguong_cao": 0.6667722762660303,
+    "phan_vi": [
+      0.7,
+      0.9
+    ],
+    "ket_qua": {
+      "Thấp": {
+        "n": 3855,
+        "ti_le_thoi_hoc": 0.11802853437094682
+      },
+      "Trung bình": {
+        "n": 1101,
+        "ti_le_thoi_hoc": 0.27157129881925524
+      },
+      "Cao": {
+        "n": 551,
+        "ti_le_thoi_hoc": 0.47368421052631576
+      }
+    },
+    "ti_le_thoi_hoc_chung": 0.18431087706555294
+  },
+  "top10_features": {
+    "relative_score_z": 0.1475769469845601,
+    "score_mean": 0.0490285129338085,
+    "score_min": 0.04661986321820981,
+    "relative_clicks": 0.04426929818088032,
+    "score_max": 0.04274866557152842,
+    "weighted_score_mean": 0.0330880362420811,
+    "n_assessments_due": 0.03213823602716186,
+    "relative_active_days": 0.030781485206220573,
+    "studied_credits": 0.027359948350867264,
+    "code_module_GGG": 0.024212183799515567
+  },
+  "advanced_features_importance": {
+    "n_activity_types": 0.005335959140672909,
+    "std_daily_clicks": 0.012594242716752899,
+    "regularity_ratio": 0.010573906711304044,
+    "clicks_first_half": 0.0146971729579395,
+    "clicks_second_half": 0.012527187676842948,
+    "click_velocity": 0.013218524968811842,
+    "clicks_last_7d": 0.015281873484294675,
+    "relative_clicks": 0.04426929818088032,
+    "relative_active_days": 0.030781485206220573,
+    "click_resource": 0.008810886525766453,
+    "click_subpage": 0.011805581001260647,
+    "click_oucontent": 0.012437346589656163,
+    "click_url": 0.009754545714512989,
+    "click_forumng": 0.013543284470935092,
+    "click_quiz": 0.008991949328788803,
+    "click_page": 0.0026276017198422095,
+    "click_oucollaborate": 0.0021616976871088483,
+    "click_questionnaire": 0.003832408639704401,
+    "click_ouwiki": 0.00588286035145188,
+    "click_dataplus": 0.0,
+    "click_externalquiz": 0.005400448445788384,
+    "click_homepage": 0.012343521810957362,
+    "click_glossary": 0.0007938637565158262,
+    "click_ouelluminate": 0.00041591216869813955,
+    "click_dualpane": 0.0028397308870580684,
+    "other_activity_clicks": 0.0002618807878768817,
+    "imd_x_logclicks": 0.013712804113616856,
+    "disability_x_active": 0.008841618971706782,
+    "credits_x_clicks": 0.01471610154116532,
+    "score_trend_slope": 0.000391957022778242,
+    "weighted_score_mean": 0.0330880362420811,
+    "relative_score_z": 0.1475769469845601,
+    "late_registration": 1.8632740779215276e-05
+  },
+  "benchmarks": [
+    {
+      "nguon": "Kuzilek, Hlosta, Zdrahal 2017 — bài báo gốc của bộ dữ liệu OULAD",
+      "url": "https://www.nature.com/articles/sdata2017171",
+      "chi_so": "32.593 lượt đăng ký, 22 module-presentation, khoảng 10 triệu tương tác trên VLE"
+    },
+    {
+      "nguon": "Frontiers in Education 2024 — Analyzing click data with AI",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1421479/full",
+      "chi_so": "Random Forest accuracy ≈ 78,68% (định nghĩa bài toán khác, không so sánh trực tiếp được)"
+    }
+  ],
+  "class_counts_per_D": {
+    "30": {
+      "0": 22410,
+      "1": 5033
+    },
+    "60": {
+      "0": 22416,
+      "1": 3930
+    },
+    "90": {
+      "0": 22420,
+      "1": 3131
+    }
+  },
+  "dataset_size_per_D": {
+    "30": 27443,
+    "60": 26346,
+    "90": 25551
+  },
+  "n_clusters_kmeans": 3,
+  "pca_n_components_95pct": 35,
+  "notes": "Cửa sổ studentVle [0,90]; tách train/test theo id_student; tham số chọn bằng GridSearchCV (GroupKFold theo sinh viên, tiêu chí F1) trên tập train, tập test chỉ dùng để báo cáo; class_weight='balanced' (Cây, SVM, Rừng), priors 50/50 (Naive Bayes); K-Means chọn k bằng quy tắc khuỷu tay; không dùng deep learning."
+}

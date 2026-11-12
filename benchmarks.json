@@ -1,0 +1,32 @@
+[
+  {
+    "nguon": "MDPI Data 2026 — Explainable Early Warnings for Dropout (days 28/56/84, student-grouped)",
+    "url": "https://www.mdpi.com/2306-5729/11/11/281",
+    "chi_so": "LogReg ROC-AUC = 0.687/0.692/0.710; Random Forest ~0.710 tại day-84"
+  },
+  {
+    "nguon": "Frontiers in Education 2024 — Analyzing click data with AI",
+    "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1421479/full",
+    "chi_so": "Random Forest accuracy = 78.68% (xác định sinh viên có nguy cơ thôi học)"
+  },
+  {
+    "nguon": "Emerald AAOUJ 2026 — Predicting student success in open and distance learning",
+    "url": "https://www.emerald.com/aaouj/article-split/doi/10.1108/AAOUJ-05-2026-0090/1401235/Predicting-student-success-in-open-and-distance",
+    "chi_so": "Linear SVM macro-F1 = 0.406, Random Forest = 0.404; đặc trưng hành vi nâng macro-F1 +0.014"
+  },
+  {
+    "nguon": "PeerJ Computer Science 2024 — Predicting student success in MOOCs (OULAD)",
+    "url": "https://peerj.com/articles/cs-2221/",
+    "chi_so": "Phân lớp 2 nhãn: LogReg accuracy=92.4%, RF=95.7% (cuối khóa, định nghĩa bài toán khác dễ hơn)"
+  },
+  {
+    "nguon": "arXiv 2512.12493 — AI-Driven Early Warning Systems (Static Feature Dominance)",
+    "url": "https://arxiv.org/html/2512.12493",
+    "chi_so": "Đặc trưng demographic tĩnh chiếm 68% importance; sum_click chỉ 1.34%"
+  },
+  {
+    "nguon": "Kuzilek, Hlosta, Zdrahal 2017 — OULAD original dataset paper",
+    "url": "https://www.nature.com/articles/sdata2017171",
+    "chi_so": "Bộ dữ liệu chuẩn: 32,593 đăng ký, 22 module-presentation, ~10.6M tương tác VLE"
+  }
+]

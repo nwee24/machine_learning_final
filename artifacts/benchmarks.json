@@ -1,0 +1,12 @@
+[
+  {
+    "nguon": "Kuzilek, Hlosta, Zdrahal 2017 — bài báo gốc của bộ dữ liệu OULAD",
+    "url": "https://www.nature.com/articles/sdata2017171",
+    "chi_so": "32.593 lượt đăng ký, 22 module-presentation, khoảng 10 triệu tương tác trên VLE"
+  },
+  {
+    "nguon": "Frontiers in Education 2024 — Analyzing click data with AI",
+    "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1421479/full",
+    "chi_so": "Random Forest accuracy ≈ 78,68% (định nghĩa bài toán khác, không so sánh trực tiếp được)"
+  }
+]
